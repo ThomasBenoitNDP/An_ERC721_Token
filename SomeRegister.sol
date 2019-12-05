@@ -8,7 +8,8 @@ contract SomeRegister {
 
    }   modifier onlyOwner() {
        require(msg.sender == owner)
-       _;   }
+       _;
+       }
 
    function changeBackend(address newBackend) public   onlyOwner()   returns (bool)   {
        if(newBackend != backendContract) {
