@@ -7,5 +7,5 @@ contract ERC721Simple {
  function ownerOf(uint256 _tokenId) public view returns (address _owner);
  function exists(uint256 _tokenId) public view returns (bool exists);
 
- function transferFrom(address _from, address _to, uint256 _tokenId) external;
+ function transferFrom(address _from, address _to, uint256 _tokenId) public;
 }
