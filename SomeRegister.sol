@@ -7,7 +7,7 @@ contract SomeRegister {
        owner = msg.sender;
 
    }   modifier onlyOwner() {
-       require(msg.sender == owner);
+       require(msg.sender == owner, "no");
        _;
        }
 
