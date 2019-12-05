@@ -5,7 +5,7 @@ contract SomeRegister {
    address[] previousBackends;
    address owner;
 
-   function SomeRegister() {
+   constructor () public {
        owner = msg.sender;
 
    }  
