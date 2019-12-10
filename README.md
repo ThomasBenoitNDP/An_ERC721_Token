@@ -9,8 +9,10 @@ Dans cet univers, les joueurs sont à la tête de pays. Leurs objectifs est de g
 -	Un nom 
 - Une quantité d’or 
 -	Une armé
+
+
 La valeur d’un pays est aussi grande que ses réserves d’or et la puissance de son armée. Les joueurs peuvent utiliser leurs pays pour attaquer ceux de leurs rivaux.  En triomphant de leurs adversaires, les pays volent de l’or à leurs cibles. 
-Le jeu se base sur la blockhain ethereum où les pays sont des tokens ERC-721. Nous utilisons un mécanisme de « looting » : nos token ERC-721 peuvent s’attaquer entre eux pour gagner des caractéristiques, et ainsi, gagner en valeur sur les places marchandes.  
+Le jeu se base sur la blockhain ethereum. Les pays sont des tokens ERC-721. Nous utilisons un mécanisme de « looting » : nos token ERC-721 peuvent s’attaquer entre eux pour gagner des caractéristiques, et ainsi, gagner en valeur sur les places marchandes.  
 # Mécanismes du jeux 
 Les pays sont rattachés à « un monde » (le nom du smartcontract, l’équivalent du nom d’un serveur dans les jeux en ligne standards). Le joueur crée son pays quand il s’inscrit dans le monde.  Le pays a un identifiant unique et il porte le nom définit par le joueur. 
 
