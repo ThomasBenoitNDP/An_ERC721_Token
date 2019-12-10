@@ -1,6 +1,6 @@
 # ERC-721 GAME: Country conquest
 
-# I. Constructeur 
+# I. Constructor 
 
 ## constructor - read
 |name |type |description
@@ -12,7 +12,7 @@ function Object() {
 **Constructor: During the deployment, a word is generated (the playground). Each word is referrenced by its name**
 
 
-# II. Variables et caractéristiques du smartcontract
+# II. The features of smartcontract
 
 ## countryIndexApproved - view
 |name |type |description
@@ -42,7 +42,7 @@ function Object() {
 _No parameters_
 **Mapping: The name of the current word**
 
-# III. Fonctionnalités
+# III. Functions
 
 ## joiningWorld - read
 |name |type |description
@@ -70,7 +70,7 @@ _No parameters_
 |_investment|uint256|
 **Function: Training the army of your country. Each invested gold generates one soldier**
 
-# IV. Fonctions du standard ERC-721 
+# IV. specific ERC-721 functions 
 
 ## Transfer - read
 |name |type |description
