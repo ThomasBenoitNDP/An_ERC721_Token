@@ -16,8 +16,12 @@ Le jeu se base sur la blockhain ethereum. Les pays sont des tokens ERC-721. Nous
 # Mécanismes du jeux 
 Les pays sont rattachés à « un monde » (le nom du smartcontract, l’équivalent du nom d’un serveur dans les jeux en ligne standards). Le joueur crée son pays quand il s’inscrit dans le monde.  Le pays a un identifiant unique et il porte le nom définit par le joueur. 
 
+
+Dans son état initial, un pays possède 100 soldats et 1000 pièces d'or.
+
+
 Pour qu’un pays puisse attaquer un pays rival, il devra respecter la condition suivante: 
--	Son armée doit être un tier plus élevé que celle du pays ciblé. 
+-	Son armée doit être au moins égale à celle du pays ciblé. 
 Après l’attaque, le pays gagnant récolte 10% de l’or de son pays rival. Dans tous les cas, les deux pays perdront un pourcentage de leurs armées (pour l’instant fixé à 10%). 
 
 Pour former ses soldat, un pays doit investir son or. La mécanique actuelle est un soldat formé pour une pièce d’or investie.  
