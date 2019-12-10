@@ -58,7 +58,7 @@ _No plarameters_
 |_idCountryOpponant|uint256|The id of your target
 **Function: Attacking an opposant country. Both users will lost 10% of their army. However, if the attaquant won, he would rob gold.
         Note1 that: There are some conditions:
-            - country'army should be 1.3 time upper than the opposant one
+            - country'army should be 1.O time upper than the opposant one
         Note2 (Just initated)
             - If opponant's has 0.5 time gold than user, the user win its target.
 **
