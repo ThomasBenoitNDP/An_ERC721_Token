@@ -34,3 +34,9 @@ En plus de voler les ressources d’un pays à un de ses rivaux, un joueur peut 
 C’est un mécansime de « robberying » (légale au sein des règles du jeu) d’ERC-721.
 Le robberying s’enclenche uniquement pendant les attaques. Si le pays du joueur attaquant dispose de deux fois plus d’or que le pays rival, l’attaquant récupère le pays ennemi. 
 
+# Organisation du dépôt
+- Le smartcontract qui gère le jeu: Defi4.sol
+- Le modèle d'un token sous le standard ERC-721: ERC721Simple.sol
+- Le contrat pour gérer les données utilisateurs dans le cas d'un changement de version du jeu (le déploiement d'un nouveau contrat): SomeRegister.sol
+- Les tests unitaires: Defi4_test.sol
+- La documentation:  	Documentation.md
