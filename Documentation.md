@@ -5,11 +5,11 @@
 ## constructor - read
 |name |type |description
 |-----|-----|-----------
-|_name|string|The name of your new word
+|_name|string|The name of your new world
 function Object() {
     [native code]
 }
-**Constructor: During the deployment, a word is generated (the playground). Each word is referrenced by its name**
+**Constructor: During the deployment, a world is generated (the playground). Each world is referrenced by its name**
 
 
 # II. The features of smartcontract
@@ -38,9 +38,9 @@ function Object() {
 ||string|A user name
 **Mapping: Knowing the name list of existing users**
 
-## wordName - view
-_No parameters_
-**String:The name of the current word**
+## worldName - view
+_No plarameters_
+**String:The name of the current world**
 
 # III. Functions
 
@@ -49,7 +49,7 @@ _No parameters_
 |-----|-----|-----------
 |_userName|string|Your desired name
 |_countryName|string|The name of your country
-**Function: When an user joins the word, he creates a country. Note that it is the only way to generate a country**
+**Function: When an user joins the world, he creates a country. Note that it is the only way to generate a country**
 
 ## attacking - read
 |name |type |description
