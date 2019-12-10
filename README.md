@@ -1,7 +1,7 @@
 # An_ERC721_Token
 An operational and secure ERC-721 Token (Ethereum Blockchain)
 
-L'objectif de ce programme est de trouver d’autres mécanismes d’interaction entre les ERC721 que le breeding (la reproduction) présente dans cryptokitties et dans cryptozombies. Pensez à séparer le contrat de l’actif ERC721 le plus simple possible pour des raisons de sécurité et éventuellement ajouter des fonctionnalités annexes ( achat, vente ) dans un contrat séparé.
+L'objectif de ce programme est de trouver d’autres mécanismes d’interaction entre les ERC721 que le breeding (la reproduction) présente dans cryptokitties et dans cryptozombies.
 
 # Description du jeu : Country Conquest 
 
