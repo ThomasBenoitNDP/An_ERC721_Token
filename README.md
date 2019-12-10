@@ -6,8 +6,9 @@ L'objectif de ce programme est de trouver d’autres mécanismes d’interaction
 # Description du jeu : Country Conquest 
 
 Dans cet univers, les joueurs sont à la tête de pays. Leurs objectifs est de gérer le plus de pays possibles. Chaque pays est unique et dispose des caractéristiques suivantes : 
--	Un nom D’une quantité d’or 
--	D’une armé
+-	Un nom 
+- Une quantité d’or 
+-	Une armé
 La valeur d’un pays est aussi grande que ses réserves d’or et la puissance de son armée. Les joueurs peuvent utiliser leurs pays pour attaquer ceux de leurs rivaux.  En triomphant de leurs adversaires, les pays volent de l’or à leurs cibles. 
 Le jeu se base sur la blockhain ethereum où les pays sont des tokens ERC-721. Nous utilisons un mécanisme de « looting » : nos token ERC-721 peuvent s’attaquer entre eux pour gagner des caractéristiques, et ainsi, gagner en valeur sur les places marchandes.  
 # Mécanismes du jeux 
